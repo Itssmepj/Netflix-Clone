@@ -1,0 +1,749 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+/* Background */
+#background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#background::before, #background::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1; 
+}
+
+#background::before {
+    top: 0;
+}
+
+#background::after {
+    bottom: 0;
+}
+
+/* Navbar */
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.container-fluid{
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.netflix{
+    width: 183px;
+    height: 105px;
+}
+
+.navbar-brand{
+    margin-top: -38px;
+    margin-left: 5%;
+}
+
+.nav{
+    margin-top: -38px;
+    margin-right: 6.5%;
+}
+
+/* Dropdown */
+.dropdown-toggle {
+    border: 0.10px solid rgba(199, 193, 193, 0.473);
+    width: 123px;
+    height: 32px;
+    margin-right: 18px;
+    border-radius: 4px;
+    padding-top: 3px;
+    color: white;
+}
+
+.dropdown-toggle:hover{
+    color: white;
+}
+
+.dropdown-item:hover{
+    background-color: blue;
+    color: white;
+}
+
+.dropdown-menu{
+    width: 18px;
+    padding: 0px;
+    margin-left: 1px;
+}
+
+.dropdown-item{
+    display: inline-block;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.btn-danger {
+    width: 85px;
+    height: 32px;
+    font-size: 15.5px;
+    padding-top: 4px;
+    background-color: red;
+    font-weight: 600;
+}
+
+.dropdown-toggle span{
+    font-size: 13.5px;
+    margin-left: -4.5px;
+    margin-top: 0px;
+    border-bottom: 10px;
+    color: white;
+}
+
+ /* Hero Text */
+.hero-text {
+    z-index: 2;
+    text-align: center;
+    position: absolute;
+    top: 261px;
+    left: 313px;
+    color: rgb(255,255,255);
+}
+
+.hero-text h1{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.p-txt1{
+    font-size: 25px;
+    margin-top: 19px;
+}
+
+.p-txt2{
+    font-size: 21px;
+    margin-top: 21.5px;
+}
+
+/* Form */
+.email {
+    background-color: rgba(15, 15, 15, 0.66);
+    width: 394px;
+    padding: 0px;
+}
+
+.email input[type="email"] {
+    background-color: transparent;
+    border: 0.10px solid grey;
+    font-size: 17px;
+    height: 59px;
+    padding-bottom: 13px;
+    border-radius: 3.2px;
+}
+
+.email ::placeholder {
+    color: rgba(233, 221, 221, 0.619); 
+    border-radius: 0.08;
+}
+
+/* Get-Started Button */
+.get-started {
+    z-index: 2;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    margin-left: 11px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    cursor: pointer;
+    width: 213px;   
+}
+
+.get-started:hover {
+    z-index: 2;
+    background-color: #cb091c;
+    color: white;
+}
+
+.main-hr{
+    top: 684px;
+    display: block;
+    position: absolute;
+    z-index: 3;
+    border: none;
+    width: 100%;
+    height: 8px;
+    background-color: rgb(178 170 170);
+}
+
+/* TV Section */
+.tv{
+    background-color: black;
+    width: 100%;
+    height: 75rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.tv-text{
+    width: 568px;
+}
+
+.tv h2 {
+    color: white;
+    position: relative;
+    top: 800px; 
+    left: 181px;
+    z-index: 2; 
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.tv p{
+    position: relative;
+    color: white;
+    display: inline-block;
+    top: 800px; 
+    left: 181px;
+    z-index: 2;
+    font-size: 24px;
+    margin-top: 17px;
+    line-height: 1.2;
+}
+
+.tv img{
+    position: relative;
+    z-index: 3;
+    float: right;
+    width: 569px;
+    height: 415px;
+    top: 511px; 
+    right: 177px;
+}
+
+.tv video{
+    position: relative;
+    z-index: 2;
+    float: right;
+    width: 618px;
+    height: 232px;
+    top: 587.5px;
+    left: 415px;
+}
+
+.tv-hr{
+    top: 77.4rem;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    border: none;
+    width: 100%;
+    height: 8px;
+    background-color: rgb(178 170 170);
+}
+
+/* Phone Section */
+.phone{
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.phone-div{
+	position: relative;
+    top: 120px;
+    left: 765px;
+    color: white;
+}
+
+.phone h2 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.3;
+    padding-right: 50.2rem;
+}
+
+.phone p{
+    font-size: 24px;
+    line-height: 1.2;
+    padding-right: 60rem;
+    margin-top: 17px;
+}
+
+.phone p br.break {
+    display: none; /* Hide the line break by default */
+}
+
+.phone p::after {
+    content: "\A"; /* Add a line break using pseudo-element */
+    white-space: pre;
+}
+
+.phone img{
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: auto;
+    height: 419px;
+    bottom: 185px; 
+    left: 192px;
+}
+
+/* Stranger Box */
+.stranger-box {
+    top: 320px;
+    left: 315px;
+    height: 103px;
+    width: 305px;
+    z-index: 2;
+    overflow: hidden;
+    position: absolute;
+    background: rgb(0,0,0);
+    padding: 0.25rem 0.65rem;
+    border: 2px solid rgba(128,128,128,0.7);
+    box-shadow: 0 0 2em 0 rgb(0,0,0);
+    border-radius: 0.75rem;
+    align-items: center;
+}
+
+.stranger-img {
+    margin-left: -192px;
+    position: absolute;
+    margin-top: 4px;
+    padding-bottom: 8px;
+    top: 0;
+    max-width: calc(100% - 3rem);;
+    max-height: 100%;
+}
+
+.stranger-text {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: 0.3rem 0;
+}
+
+.stranger-mtext {
+    margin-left: 79px;
+    margin-top: 26px;
+    color: rgb(255,255,255);
+    font-weight: 500;
+    font-size: 16.5px;
+    line-height: 1.1;
+}
+
+.stranger-dtext{
+    margin-left: 79px;
+    font-size: 14.5px;
+    font-weight: 400;
+    color: #0071eb;
+}
+
+.download-arrow {
+    width: 3rem;
+    height: 3rem;
+    outline: 2px solid rgb(0,0,0);
+    outline-offset: -2px;
+    display: block;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+    background-size: 100%;
+    content: '';
+    flex-grow: 0;
+    flex-shrink: 0;
+    position: absolute;
+    right: 11px;
+    top: 23px;
+}
+
+.phone-hr{
+    top: 113.73rem;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    border: none;
+    width: 100%;
+    height: 8px;
+    background-color: rgb(178 170 170);
+}
+
+/* PC Section */
+.pc{
+    background-color: black;
+    width: 100%;
+    height: 35.8rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.pc h2 {
+    color: white;
+    position: relative;
+    top: 108px; 
+    left: 181px;
+    z-index: 2; 
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.pc p{
+    position: relative;
+    color: white;
+    display: inline-block;
+    top: 111px;
+    left: 181px;
+    z-index: 2;
+    font-size: 23px;
+    margin-top: 17px;
+    line-height: 1.3;
+    width: 550px;
+}
+
+/* .pc span {
+    display: block;
+} */
+
+.pc img{
+    position: relative;
+    z-index: 3;
+    float: right;
+    width: 574px;
+    height: 415px;
+    top: -74px; 
+    right: 177px;
+}
+
+.pc video {
+    position: relative;
+    z-index: 2;
+    float: right;
+    width: 351px;
+    height: 274px;
+    top: -65px;
+    left: 281px;
+}
+
+.pc-hr{
+    top: 150rem;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    border: none;
+    width: 100%;
+    height: 8px;
+    background-color: rgb(178 170 170);
+}
+
+/* Kids Section */
+.kids{
+    background-color: black;
+    width: 100%;
+    height: 30rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.kids h2 {
+    color: white;
+    position: relative;
+    top: 90px; 
+    left: 769px;
+    z-index: 2; 
+    font-size: 48px;
+    margin-right: 780px;
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+.kids p{
+    position: relative;
+    color: white;
+    display: inline-block;
+    top: 81px; 
+    left: 203px;
+    width: 550px;
+    z-index: 2;
+    margin-right: 250px;
+    font-size: 24px;
+    margin-top: 18px;
+    line-height: 1.3;
+}
+
+/* .kids span {
+    display: block;
+} */
+
+.kids img{
+    position: relative;
+    z-index: 2;
+    float: left;
+    height: 425px;
+    bottom: 94px; 
+    left: 180px;
+}
+
+.kids-hr{
+    top: 186rem;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    border: none;
+    width: 100%;
+    height: 8px;
+    background-color: rgb(178 170 170);
+}
+
+/* Q&A Section */
+.que{
+    background-color: black;
+    width: 100%;
+    height: 85rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.que h2 {
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-top: 72px;
+    z-index: 2; 
+    font-size: 48px;
+    line-height: 1.3;
+}
+
+/* Accordion Section */
+.accordion {
+    background-color: #2d2d2d;
+    color: #FEFBF6;
+    font-size: 24px;
+    cursor: pointer;
+    width: 77%;
+    padding: 24px;
+    text-align: left;
+    margin: 20px 0 -10px 178px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active:hover, .accordion:hover {
+    background-color: #585858c5;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: white;
+    float: right;
+    margin-left: 5px;
+    font-size: 65px;
+    line-height: 20px;
+    vertical-align: middle;
+    font-weight: 20;
+}
+
+.active:after {
+    content: "\00D7";
+}
+
+.panel {
+    font-size: 24.7px;
+    padding: 0 28px;
+    background-color: #2d2d2d;
+    color: white;
+    display: none;
+    overflow: hidden;
+    margin: 11.5px 171px -10px 178px;
+    padding-bottom: 14px;
+    padding-top: 1.5rem;
+}
+
+.panel p{
+    line-height: 1.2;
+}
+
+.panel.active:after {
+    content: "";
+}
+
+/* Under Text */
+.que-p{
+    font-size: 21px;
+    margin-left: 29%;
+    margin-top: 50px;
+    color: white;
+}
+
+/* Form */
+.que-email {
+    background-color: rgba(15, 15, 15, 0.66);
+    border-radius: 0.08;
+    width: 380px;
+    padding: 0px;
+    margin-left: 14.5%;
+    border-radius: 0.08;
+}
+
+.que-email input[type="email"] {
+    background-color: transparent;
+    border: 0.10px solid grey;
+    font-size: 17px;
+    height: 59px;
+    padding-bottom: 13px;
+}
+
+.que-email ::placeholder {
+    color: rgba(233, 221, 221, 0.619); 
+}
+
+/* Get-Started Button */
+.que-get-started {
+    z-index: 2;
+    font-size: 25px;
+    font-weight: 500;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    margin-left: 0.5%;
+    color: white;
+    background-color: #d81313;
+    text-align: center;
+    cursor: pointer;
+    width: 213px;   
+}
+
+.que-get-started:hover {
+    z-index: 2;
+    background-color: #cb091c;
+    color: white;
+}
+
+.que-hr{
+    margin-top: 75px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    border: none;
+    width: 100%;
+    height: 8px;
+    background-color: rgb(178 170 170);
+}
+
+/* Footer Section */
+.footer{
+    position: relative;
+    /* height: 26.1rem; */
+    background-color: black; 
+}
+
+.footer h5{
+    padding-top: 45px;
+    padding-bottom: 18px;
+    margin-left: 5.5%;
+    background: black;
+    color: rgb(173 179 179);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.footer h5 span{
+    text-decoration: underline;
+}
+    
+.footer-row {
+    display: flex;
+    font-size: 15.2px;
+}
+
+.footer-row .col-6 {
+    width: 18%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-left: 73.5px;
+}
+
+.footer-row ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-row ul li {
+    margin-bottom: 10px;
+}
+
+.footer-row ul li a {
+    color: #aaa;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+/* Language Dropdown */
+.nav-footer{
+    margin-left: 183px;
+    margin-top: 10px;
+}
+
+footer .dropdown-toggle {
+    border: 0.9px solid rgba(199, 193, 193, 0.473);
+    width: 120px;
+    height: 32px;
+    border-radius: 4px;
+    padding-top: 3px;
+    color: white;
+}
+
+footer .dropdown-toggle:hover{
+    color: white;
+}
+
+footer .dropdown-item:hover{
+    background-color: blue;
+    color: white;
+}
+
+footer .dropdown-menu{
+    padding: 0px;
+    margin-left: 1px;
+    list-style: none;
+}
+
+footer .dropdown-item{
+    display: inline-block;
+    margin-top: 0;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+footer .dropdown-toggle span{
+    font-size: 13.5px;
+    margin-top: 0px;
+    border-bottom: 10px;
+    color: white;
+}
+
+.footer h6{
+    margin-left: 181px;
+    margin-top: 23px;
+    color: white;
+    font-weight: 300;
+}

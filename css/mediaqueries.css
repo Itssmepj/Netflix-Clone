@@ -1,0 +1,1289 @@
+/* For desktops and large screens (1025px to 1200px) */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    #background{
+        height: 679px;
+    }
+    
+    .container-fluid {
+        margin-top: 14px;
+        margin-left: -4.6%;
+    }
+     
+    .nav {
+        margin-top: -36px;
+        margin-right: -2.5%;
+    }
+    
+    .dropdown-toggle span {
+        font-size: 14.5px;
+        margin-top: 5px;
+    }
+        
+    .hero-text {
+        left: 183px;
+    }
+    
+    .hero-text h1 {
+        font-size: 47px;
+    }
+    
+    .col-form-label-lg {
+        margin-left: -11px
+    }
+    
+    .email{
+        width: 382px;
+    }
+    
+    .get-started {
+        border-radius: 4.2px;
+    }
+    
+    .main-hr {
+        top: 663px;
+    }
+
+    .tv{
+        height: 71.7rem;
+    }
+
+    .tv-text {
+        margin-left: -151px;
+    }
+    
+    .tv h2{
+        font-size: 47px;
+        top: 781px;
+    }
+    
+    .tv p{
+        font-size: 24px;
+        top: 783px;
+        left: 183px;
+    }
+    
+    .tv img {
+        top: 509px;
+        right: 35px;
+    }
+    
+    .tv video {
+        top: 589.5px;
+        left: 558px;
+    }
+
+    .phone-div {
+        top: 178px;
+        left: 611px;
+    }
+    
+    .phone h2 {
+        padding-right: 41.2rem;
+    }
+    
+    .phone p {
+        width: 95rem;
+    }
+    
+    .phone img {
+        height: 429px;
+        bottom: 165px;
+        left: 27px;
+        top: -141px;
+    }
+    
+    .stranger-box {
+        top: 379px;
+        left: 124px;
+        height: 94px;
+        width: 376px;
+    }
+    
+    .stranger-img{
+        margin-left: -23px;
+        margin-top: 144px;
+    }
+
+    .pc{
+        height: 31.5rem;
+    }
+    
+    .pc h2 {
+        top: 147px;
+        left: 31px;
+        font-size: 47px;
+    }
+    
+    .pc p {
+        top: 144px;
+        left: 32px;
+        font-size: 25px;
+        margin-top: 19px;
+        font-weight: 400;
+        line-height: 1.2;
+    }
+    
+    .pc img{
+        width: 563px;
+        height: 420px;
+        top: -45px;
+        right: 31px;
+    }
+    
+    .pc video {
+        width: 357px;
+        height: 244px;
+        top: -111px;
+        left: 424px;
+    }
+    
+    .pc-hr {
+        top: 149.3rem;
+    }
+
+    .kids {
+        height: 35.7rem;
+    }
+    
+    .kids h2 {
+        top: 189px;
+        left: 604px;
+        margin-right: 658px;
+        font-size: 47px;
+    }
+    
+    .kids p {
+        top: 180px;
+        left: 607px;
+        width: 550px;
+    }
+    
+    .kids img {
+        height: 421px;
+        bottom: 122px;
+        left: 32px;
+    }
+    
+    .kids-hr {
+        top: 184.9rem;
+    }
+
+    .que{
+        height: 84rem;
+    }
+
+    .que h2 {
+        font-size: 47px;
+        font-weight: 800;
+    }
+
+    .que-p {
+        font-size: 20.5px;
+        margin-left: 23%;
+        margin-top: 54px;
+    }
+    
+    .row-que{
+        margin-left: -89px;
+    }
+    
+    .que-email{
+        width: 368px;
+    }
+    
+    .que-get-started{
+        margin-left: 0.6%;
+    }
+
+    .accordion {
+        margin-left: 33px;
+        width: 94.5%;
+    }
+    
+    .panel {    
+        margin: 11.5px 33px -10px 33px;
+        font-size: 24px;
+    }
+
+    .footer h5 {
+        margin-left: -1%;
+    }
+    
+    .footer-row {
+        font-size: 14.5px;
+        margin-left: -8.5%;
+        font-weight: 500;
+    }
+
+    .nav-footer {
+        margin-top: 18px;
+        margin-left: 30px;
+    }
+
+    .footer h6 {
+        margin-left: 32px;
+        margin-top: 23px;
+        color: rgb(173 179 179);
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+
+
+
+  
+
+
+
+/* For small screens and laptops (769px to 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #background{
+        height: 679px;
+    }
+    
+    .container-fluid {
+        margin-top: 14px;
+        margin-left: -4.6%;
+    }
+     
+     .nav {
+        margin-top: -36px;
+        margin-right: -2.5%;
+    }
+
+    .english{
+        margin-left: 2px;
+    }
+    
+    .dropdown-toggle span {
+        font-size: 14.5px;
+        margin-top: 5px;
+    }
+        
+    .hero-text {
+        left: 84px;
+    }
+    
+    .hero-text h1 {
+        font-size: 45px;
+    }
+    
+    .col-form-label-lg {
+        margin-left: -11px
+    }
+    
+    .email{
+        width: 382px;
+    }
+    
+    .get-started {
+        border-radius: 4.2px;
+    }
+    
+    .main-hr {
+        top: 663px;
+    }
+
+    .tv {
+        height: 67rem;
+    }
+    
+    .tv h2 {
+        top: 732px;
+        left: 57px;
+    }
+     
+    
+    .tv p {
+        top: 740px;
+        left: 57px;
+        width: 510px;
+    }
+    
+    .tv img{
+        width: 475px;
+        height: 342px;
+        top: 469px;
+        right: 7px;
+    }
+    
+    .tv video {
+        width: 343px;
+        height: 245px;
+        top: 515px;
+        left: 401px;
+    }
+    
+    .tv-hr {
+        top: 72.2rem;
+    }
+
+    .phone{
+        height: 31rem;
+    }
+    
+    .phone-div {
+        top: 102px;
+        left: 519px;
+    }
+    
+    .phone h2 {
+        font-size: 46px;
+        line-height: 1.35;
+        padding-right: 33rem;
+    }
+    
+    .phone p {
+        font-size: 24px;
+        padding-right: 33rem;
+        margin-top: 12px;
+    }
+    
+    .phone img {
+        height: 357px;
+        bottom: 207px;
+        left: 32px;
+    }
+    
+    .stranger-box {
+        width: 312px;
+        top: 302px;
+        left: 113px;
+        height: 94px;
+    }
+    
+    .stranger-img {
+        margin-left: -31px;
+    }
+    
+    .stranger-text{
+        margin-left: -9px;
+        margin-top: -4px;
+        font-weight: 400;
+    }
+    
+    .phone-hr {
+        top: 103.73rem;
+    }
+    
+    .pc {
+        height: 31.39rem;
+    }
+    
+    .pc h2 {
+        top: 178px;
+        left: 31px;
+        font-size: 46px;
+    }
+    
+    .pc p {
+        top: 175px;
+        left: 33px;
+        font-size: 24px;
+        width: 469px;
+    }
+    
+    .pc img {
+        width: auto;
+        height: 355px;
+        top: 17px;
+        right: 31px;
+    }
+    
+    .pc video {
+        width: auto;
+        height: 161px;
+        top: -34px;
+        left: 345px;
+    }
+    
+    .pc-hr {
+        top: 135.1rem;
+    }
+
+    .kids {
+        height: 31.3rem;
+    }
+
+    .kids h2 {
+        top: 126px;
+        left: 520px;
+        width: 43%;
+        font-size: 46px;
+    }
+    
+    .kids p {
+        top: 117px;
+        left: 524px;
+        width: 456px;
+        font-size: 24.2px;
+    }
+
+    .kids img {
+        height: 356px;
+        bottom: 184px;
+        left: 32px;
+    }
+    
+    .kids-hr {
+        top: 166.4rem;
+    }
+    
+
+    .accordion {    
+        margin-left: 32px;
+        width: 93.76%;
+        font-size: 25px;
+        padding: 24px;
+    }
+
+    .panel {
+        width: 93.76%;
+        margin-left: 32px;
+    }
+
+    .que{
+        height: 84.5rem;
+    }
+
+    .row-que {
+        margin-left: -136px;
+    }
+    
+    .que-p {
+        font-size: 20.5px;
+        margin-left: 18.5%;
+        margin-top: 53px;
+    }
+    
+    .que-email{
+        width: 370px;
+    }
+    
+    .que-email input[type="email"] {
+        height: 57px;
+        font-size: 16.5px;
+        margin-top: 3px;
+        padding-bottom: 10px;
+    }
+    
+    .que-get-started {
+        margin-left: 0.69%;
+        width: 209px;
+        font-size: 24px;
+        height: 56px;
+        margin-top: 3px;
+        font-weight: 600;
+        padding-right: 34px;
+    }
+    
+    .que-hr {
+        margin-top: 71px;
+    }
+    
+    .footer h5 {
+        margin-left: -1.3%;
+    }
+    
+    .footer-row {
+        font-size: 14.5px;
+        margin-left: -10%;
+        font-weight: 500;
+    }
+
+    .footer-row .col-6 {
+        width: 16.2%;
+    }
+
+    .nav-footer {
+        margin-top: 18px;
+        margin-left: 30px;
+    }
+
+    .footer h6 {
+        margin-left: 32px;
+        margin-top: 23px;
+        color: rgb(173 179 179);
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* For iPads and tablets (481px to 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    #background{
+        height: 524px;
+    }
+    
+    .container-fluid {
+        margin-top: 14px;
+        margin-left: -4.6%;
+    }
+     
+    .nav {
+        margin-top: -20px;
+        margin-right: -2.5%;
+    }
+
+    .navbar-brand{
+        margin-top: -39px;
+        margin-top: -20px;
+        margin-left: 6%;
+    }
+
+    .netflix{
+        width: 110px;
+        height: 60px;
+    }
+
+    .english{
+        margin-left: 2px;
+    }
+    
+    .dropdown-toggle {
+        margin-right: 7px;
+    }
+    
+    .dropdown-toggle span {
+        font-size: 14.5px;
+        margin-top: 5px;
+    }
+        
+    .hero-text {
+        left: 84px;
+        margin-top: -53px;
+    }
+    
+    .hero-text h1 {
+        font-size: 33px;
+        font-weight: 700;
+    }
+    .p-txt1{
+        font-size: 19px;
+        margin-top: 13px;
+    }
+
+    .p-txt2{
+        font-size: 18.5px;
+        margin-top: 13.5px;
+    }
+    .col-form-label-lg {
+        margin-left: -11px;
+    }
+    
+    .email{
+        width: 359px;
+        margin-left: -71px;
+    }
+    
+    .get-started {
+        width: 206px;
+        border-radius: 4.2px;
+    }
+    
+    .main-hr {
+        top: 508px;
+    }
+
+    .tv-text {
+        width: 734px;
+    }
+
+    .tv {
+        height: 73rem;
+    }
+    
+    .tv h2 {
+        top: 515px;
+        font-size: 34px;
+        font-weight: 700;
+        margin-left: 62px;
+    }
+    
+    .tv p {
+        top: 517px;
+        left: 42px;
+        font-size: 19px;
+        text-align: center;
+        margin-right: 49px;
+        margin-top: 10px;
+    }
+    
+    .tv img{
+        width: 640px;
+        height: 479px;
+        top: 515px;
+        right: 64px;
+    }
+    
+    .tv video {
+        width: 1059px;
+        height: 263px;
+        top: 133.5px;
+        left: 145px;
+    }
+    
+    .tv-hr {
+        top: 77.6rem;
+    }
+    
+    .phone {
+        height: 45.5rem;
+    }
+    
+    .phone-div {
+        position: relative;
+        top: -42px;
+        left: 671px;
+    }
+    
+    .phone h2 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 1.3;
+        margin-top: 124px;
+        margin-left: -574px;
+        padding-right: 0;
+    }
+    
+    .phone p {
+        font-size: 18.5px;
+        line-height: 1.2;
+        margin-top: 13px;
+        padding: 0px;
+        width: 33rem;
+        margin-left: -549px;
+    }
+    
+    .phone img{
+        height: 478px;
+        top: -28px;
+        left: 65px;
+    }
+    
+    .stranger-box {
+        top: 549px;
+        left: 178px;
+        height: 80px;
+        width: 411px;
+    }
+
+    .stranger-img{
+        margin-left: -66px;
+        margin-top: 30px;
+    }
+
+    .stranger-mtext{
+        margin-top: 17px;
+        margin-left: 59px;
+    }
+    
+    .stranger-dtext{
+        margin-left: 59px;
+    }
+
+    .download-arrow{
+        margin-top: -8px;
+    }
+
+    .phone-hr {
+        top: 122.5rem;
+    }
+
+    .pc {
+        height: 45.5rem;
+    }
+    
+    .pc h2 {
+        font-size: 32px;
+        margin-top: -33px;
+        margin-left: 61px;
+        font-weight: 700;
+    }
+
+    .pc p {
+        font-size: 18.5px;
+        width: 42rem;
+        margin-left: -114px;
+        margin-top: 9px;
+    }
+    
+    .pc img {
+        width: auto;
+        height: 479px;
+        top: 120px;
+        right: 65px;
+    }
+    
+    .pc video {
+        width: auto;
+        height: 222px;
+        top: -306px;
+        left: -189px;
+    }
+    
+    .pc-hr{
+        top: 168rem;
+    }
+
+    .kids{
+        height: 47.3rem;
+    }
+
+    .kids h2  {
+        top: 70px;
+        left: 212px;
+        font-size: 32.5px;
+        margin-right: 415px;
+        font-weight: 700;
+    }
+    
+    .kids p{
+        top: 59px;
+        left: 37px;
+        width: 699px;
+        font-size: 18.5px;
+        text-align: center;
+    }
+    
+    .kids img {
+        height: 481px;
+        bottom: -68px;
+        left: 64px;
+    }
+
+    .kids-hr {
+        top: 215.3rem;
+    }
+
+    .que{
+        height: 80rem;
+    }
+
+    .que h2{
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 4px;
+    }
+    
+    .accordion {
+        margin-left: 31px;
+        width: 91.8%;
+        padding: 21.5px;
+        font-size: 18.8px;
+    }
+    
+    .accordion:after{
+        font-size: 44px;
+    }
+
+    .panel {
+        margin-left: 31px;
+        width: 91.8%;
+        font-size: 19px;
+    }
+    
+    .que-p{
+        font-size: 18.6px;
+        margin-left: 12%;
+        margin-top: 56px;
+    }
+    
+    .que-email {
+        width: 46.7%;
+        margin-left: -19px;
+    }
+    
+    
+    .que-email input[type="email"] {
+        height: 55.8px;
+        border-radius: 0;
+    }
+
+    .que-get-started {
+        margin-left: 1%;
+        width: 209px;
+        font-size: 23.5px;
+        height: 57px;
+        font-weight: 600;
+        padding-right: 43px;
+    }
+    
+    .que-hr {
+        margin-top: 70px;
+    }
+     
+    .footer h5{
+        padding-top: 6px;
+        margin-left: -2px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+     
+    .footer-row{
+        margin-left: -85px;
+        font-weight: 500;
+        font-size: 15px;
+    }
+     
+    .footer-row .col-6 {
+        width: 35.5%;
+        padding: 0 10px;
+        margin-left: 74.5px;
+    }
+     
+    .nav-footer {
+        margin-top: 11px;
+        margin-left: 4.2%;
+    }
+     
+    .footer h6 {
+        margin-left: 34px;
+        margin-top: 23px;
+        color: #8e8b8b;
+        font-weight: 400;
+    }
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* For mobile phones (320px to 480px) */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    #background {
+        height: 468px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .container-fluid {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .netflix {
+        margin-bottom: 10px;
+        margin-left: -13px;
+        margin-top: 19px;
+        height: 61px;
+        width: 108px;
+    }
+    
+    .nav {
+        margin-top: -12px;
+        margin-left: 4%;
+        flex-direction: column;
+    }
+
+    .navbar-brand {
+        margin-top: -39px;
+        margin-left: 4%;
+        padding-top: 7px;
+    }
+      
+    .nav-item{
+        margin-right: 67px;
+        width: 60px;
+    }
+
+    .dropdown-toggle {
+        margin-bottom: 5px;
+        width: 63px;
+    }
+
+    .english {
+        display: none;
+    }
+
+    .btn-danger{
+        position: absolute;
+        top: 24px;
+        right: 21px;
+        width: 76px;
+    }
+
+    .hero-text {
+        top: 123px;
+        left: 21px;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+        font-weight: 700;
+        margin-left: 28px;
+        margin-right: 53px;
+    }
+
+    .p-txt1 {
+        font-size: 19px;
+        margin-left: -19px;
+        margin-top: 16px;
+    }
+
+    .p-txt2 {
+        margin-left: 35px;
+        font-size: 18.5px;
+        width: 77%;
+    }
+
+    .email {
+        width: 334px;
+        padding: 0px;
+        margin-left: 33px;
+        height: 47px;
+        margin-top: -21px;
+    }
+
+    .email input[type="email"] {
+        height: 47px;
+    }
+      
+    .get-started{
+        margin-left: 119px;
+        width: 156px;
+        font-size: 19px;
+        margin-top: 16px;
+        border-radius: 3px;
+        padding: 7px;
+    }
+
+    .main-hr {
+        top: 452px;
+    }
+
+    .tv{
+        height: 72.52rem;
+    }
+    
+    .phone-div {
+        left: 610px
+    }
+    
+    .tv {
+        height: 58rem;
+    }
+
+    .tv-text {
+        width: 351px;
+    }
+    
+    .tv h2 {
+        top: 434px;
+        left: 83px;
+        font-size: 33px;
+        font-weight: 700;
+    }
+    
+    .tv p {
+        top: 435px;
+        left: 64px;
+        font-size: 18.5px;
+        font-weight: 500;
+        margin-left: -24px;
+        margin-right: 20px;
+        text-align: center;
+        margin-top: 9px;
+    }
+
+    .tv img {
+        width: 375px;
+        height: 286px;
+        top: 446px;
+        right: 26px;
+    }
+    
+    
+    .tv video {
+        width: 504px;
+        height: 156px;
+        top: 219.5px;
+        left: 40px;
+    }
+    
+    .tv-hr {
+        top: 62.6rem;
+    }
+
+    .phone {
+        height: 35.5rem;
+    }
+    
+    .phone-div {
+        left: 11px;
+        top: 37px;
+        width: 25rem;
+        text-align: center;
+    }
+    
+    .phone h2 {
+        font-size: 31.5px;
+        font-weight: 700;
+        margin-top: 17px;
+        padding: 0px;
+    }
+    
+    .phone p {
+        font-size: 18.5px;
+        line-height: 1.2;
+        padding-right: 1rem;
+        margin-top: 17px;
+        margin-left: 5px;
+    }
+    
+    .phone img{
+        width: auto;
+        height: 283px;
+        bottom: -47px;
+        left: 24px;
+    }
+    
+    .stranger-box {
+        top: 422px;
+        left: 81px;
+        height: 66px;
+        width: 263px;
+    }
+    
+    .stranger-mtext {
+        margin-left: 50px;
+        margin-top: 11px;
+       font-size: 14.5px;
+    }
+    
+    .stranger-dtext {
+        margin-left: 50px;
+        font-size: 12.5px;
+        margin-top: 1px;
+    }
+    
+    .download-arrow {
+        margin-top: -17px;
+    }
+    
+    .phone-hr {
+        top: 98.1rem; 
+    }
+
+    .pc{
+        height: 32.8rem;
+    }
+    
+    .pc h2 {
+        top: 62px;
+        left: 72px;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    
+    .pc p {
+        top: 55px;
+        left: 24px;
+        font-size: 18.5px;
+        margin-top: 17px;
+        width: 379px;
+        text-align: center;
+    }
+    
+    .pc img {
+        width: auto;
+        height: 283px;
+        top: 61px;
+        right: 24px;
+    }
+    
+    .pc video {
+        width: auto;
+        height: 132px;
+        top: -183px;
+        left: -98px;
+    }
+    
+    .pc-hr{
+        top: 130.9rem;
+    }
+
+    .kids {
+        height: 35.7rem;
+    }
+    
+    .kids h2 {
+        top: 53px;
+        left: 40px;
+        font-size: 33px;
+        font-weight: 700;
+        width: 137%;
+    }
+    
+    .kids p {
+        top: 43px;
+        left: 24px;
+        font-size: 19px;
+        margin-top: 19px;
+        width: 388px;
+        text-align: center;
+    }
+    
+    .kids img {
+        height: 293px;
+        bottom: -50px;
+        left: 23px;
+    }
+    
+    .kids-hr {
+        top: 166rem;
+    }
+    
+    .que { 
+        height: 115.5rem;
+    }
+    
+    .que h2{
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: 47px;
+        margin-left: 10px;
+        margin-bottom: 2px;
+    }
+    
+    .accordion{
+        width: 89%;
+        margin-left: 24px;
+        height: 72px;
+        font-size: 19px;
+    }
+    
+    .accordion:after{
+        font-size: 39px;
+    }
+    
+    .panel {
+        margin-left: 24px;
+        width: 89%;
+        font-size: 18.9px;
+        padding-left: 23px;
+    }
+
+    .que {
+        height: 86rem;
+    }
+    
+    .que-p {
+        font-size: 18.8px;
+        margin-left: 16%;
+        margin-top: 56px;
+        margin-right: 6px;
+        line-height: 1.4;
+    }
+
+    .que-email {
+        width: 72.7%;
+        margin-left: 60px;
+        height: 47px;
+        margin-top: -17px;
+    }
+    
+    .que-email input[type="email"] {
+        height: 48.8px;
+    }
+    
+    .que-get-started {
+        margin-left: 32%;
+        width: 162px;
+        font-size: 19px;
+        height: 48px;
+        font-weight: 500;
+        padding-right: 18px;
+        margin-top: 19px;
+        padding-left: 1px;
+    }
+    
+    .que-hr {
+        margin-top: 54px;
+    }
+    
+    .footer {
+        margin-left: 12px;
+    }
+    
+    .footer h5 {
+        padding-top: 9px;
+        margin-left: -2px;
+        font-size: 16.8px;
+        font-weight: 500;
+    }
+    
+    .footer-row {
+        margin-left: -72px;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    
+    .list-unstyled {
+        width: 196px;
+    }
+
+    .footer-row .col-6 {
+        width: 24%;
+        padding: 0px 0px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .nav-footer {
+        margin-top: 7px;
+        margin-left: 3%;
+        flex-direction: column;
+    }
+    
+    .dropdown-toggle {
+        margin-bottom: 5px;
+        width: 130px;
+    }
+    
+    .footer h6 {
+        margin-left: 15px;
+        margin-top: 23px;
+        color: #c9c8c8ba;
+        font-weight: 400;
+        font-size: 16px;
+    }
+     
+    
+  }
+
+
+
+
+  
+
+  
+
+
+
+  
+
+
+
+
+
+
